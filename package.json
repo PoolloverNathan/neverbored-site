@@ -6,7 +6,12 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "jstransformer-babel": "^2.1.0",
+    "jstransformer-less": "^2.3.0",
+    "jstransformer-uglify-js": "^1.2.0",
+    "sequelize": "^6.23.2"
   },
   "type": "commonjs"
 }
