@@ -1,5 +1,5 @@
-import express,{ static } from 'express';
-import { resolve } from 'path';
+const express = require("express")
+const { resolve } = require("path")
 const app = express();
 const port = 3010;
 
