@@ -3,7 +3,7 @@ const { resolve } = require("path")
 const app = express();
 const port = 3010;
 
-app.use(static('static'));
+app.use(express.static('static'));
 app.set('view engine', 'jade')
 
 app.get('/', (req, res) => {
